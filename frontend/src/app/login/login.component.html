@@ -1,0 +1,31 @@
+<div class="center-content">
+    <nb-card class="login-card">
+        <nb-card-header>
+            <h3 class="text-center">Iniciar sesión</h3>
+        </nb-card-header>
+        <nb-card-body>
+            <form [formGroup]="signInForm">
+                <div class="form-group">
+                    <label for="usuario">Usuario</label>
+                    <input nbInput fullWidth formControlName="usuario" type="text" id="usuario" name="usuario"
+                        placeholder="Ingrese usuario">
+                    <p *ngIf="signInForm.controls['usuario'].errors?.['required'] && signInForm.controls['usuario'].touched"
+                        class="caption status-danger">
+                        El campo usuario es obligatorio.
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label for="clave">Contraseña</label>
+                    <input nbInput fullWidth formControlName="clave" type="password" id="clave" name="clave"
+                        placeholder="Ingrese contraseña">
+                    <p *ngIf="signInForm.controls['clave'].errors?.['required'] && signInForm.controls['clave'].touched"
+                        class="caption status-danger">
+                        El campo contraseña es obligatorio.
+                    </p>
+                </div>
+                <button nbButton status="primary" fullWidth [disabled]="signInForm.invalid"
+                    (click)="login()">INGRESAR</button>
+            </form>
+        </nb-card-body>
+    </nb-card>
+</div>

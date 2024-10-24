@@ -1,0 +1,10 @@
+<nb-card>
+  <nb-card-header>Confirmar Eliminación</nb-card-header>
+  <nb-card-body>
+    <p>¿Está seguro de que desea eliminar esta lista de reproducción?</p>
+  </nb-card-body>
+  <nb-card-footer class="d-flex justify-content-end">
+    <button nbButton status="warning" (click)="confirm()">Eliminar</button>
+    <button nbButton status="primary" (click)="cancel()">Cancelar</button>
+  </nb-card-footer>
+</nb-card>

@@ -1,0 +1,12 @@
+<nb-layout>
+    <nb-layout-header *ngIf="!isLoginPage()" class="d-flex justify-content-center" style="cursor: pointer;">
+        <nb-icon style=" margin-right: 20px" icon="home-outline" nbTooltip="Inicio" (click)="inicio()"></nb-icon>
+        <nb-icon style=" margin-right: 20px" icon="plus-outline" nbTooltip="Crear lista" (click)="crearLista()"></nb-icon>
+        <nb-icon style=" margin-right: 20px" icon="list-outline" nbTooltip="Ver todas las listas" (click)="verListas()"></nb-icon>
+        <nb-icon style=" margin-right: 20px" icon="search-outline" nbTooltip="Buscar lista de reproducción" (click)="buscarLista()"></nb-icon>
+        <nb-icon icon="person-outline" nbTooltip="Cerrar sesión" (click)="cerrarSesion()"></nb-icon>
+    </nb-layout-header>
+    <nb-layout-column>
+        <router-outlet></router-outlet>
+    </nb-layout-column>
+</nb-layout>

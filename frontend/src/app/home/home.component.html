@@ -1,0 +1,23 @@
+<nb-card>
+  <nb-card-header style="text-align: center;">
+    <h3 style="font-size: 24px;">Lista de Canciones</h3>
+  </nb-card-header>
+  <nb-card-body>
+    <nb-list>
+      <nb-list-item *ngFor="let cancion of canciones">
+        <div class="song-item">
+          <div class="song-icon">
+            <nb-icon icon="music-outline"></nb-icon>
+          </div>
+          <!-- Información de la canción -->
+          <div class="song-info">
+            <span class="song-title">{{ cancion.titulo }}</span>
+            <span class="song-artist">{{ cancion.artista }}</span>
+            <span class="song-artist">{{ cancion.anno }}</span>
+            <span class="song-artist">{{ cancion.genero }}</span>
+          </div>
+        </div>
+      </nb-list-item>
+    </nb-list>
+  </nb-card-body>
+</nb-card>

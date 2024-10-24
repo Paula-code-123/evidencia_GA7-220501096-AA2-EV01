@@ -1,0 +1,44 @@
+<nb-card>
+  <nb-card-header style="text-align: center;">
+    <h3 style="font-size: 24px;">Crear lista de reproducción</h3>
+  </nb-card-header>
+  <nb-card-body>
+    <form class="form-horizontal" [formGroup]="listaForm">
+      <div class="row" style="padding: 20px;">
+        <div class="col-sm-6">
+          <label> Nombre lista</label><br />
+          <input type="text" nbInput fullWidth formControlName="nombre" id="nombre" name="nombre">
+        </div>
+        <div class="col-sm-6">
+          <label> Descripción lista </label><br />
+          <input type="text" nbInput fullWidth formControlName="descripcion" id="descripcion" name="descripcion" />
+        </div>
+      </div>
+      <div class="row" style="padding: 20px;">
+        <p>Selecciona las canciones que deseas agregar a tu lista de reproducción</p>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Seleccionar</th>
+              <th scope="col">Título</th>
+              <th scope="col">Artista</th>
+            </tr>
+          </thead>
+          <tbody formArrayName="canciones">
+            <tr *ngFor="let cancion of cancionesFormArray.controls; let i = index" [formGroupName]="i">
+              <td>
+                <input type="checkbox" formControlName="seleccionado">
+              </td>
+              <td>{{ cancion.get('titulo')?.value }}</td>
+              <td>{{ cancion.get('artista')?.value }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </form>
+    <div class="d-flex justify-content-end">
+      <button nbButton status="warning" (click)="limpiarFormulario()">Limpiar</button>
+      <button nbButton status="primary" (click)="agregarLista()">Aceptar</button>
+    </div>
+  </nb-card-body>
+</nb-card>

@@ -1,0 +1,21 @@
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; // Altura completa de la vista
+}
+
+.login-card {
+  width: 400px; // Ancho del card
+  max-width: 90%; // Máximo ancho del 90% de la pantalla
+  padding: 20px; // Espaciado interno
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Sombra para darle un efecto de elevación
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
