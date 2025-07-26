@@ -1,21 +1,8 @@
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\JwtUtil.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\MiProyectoApplication.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\filters\JwtRequestFilter.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\entity\ListaReproduccion.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\entity\Cancion.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\controller\AuthController.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\config\SecurityConfig.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\controller\PlaylistController.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\service\PlaylistService.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\model\request\LoginRequest.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\service\AuthService.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\model\request\ListaReproduccionRequest.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\service\UserDetailsServiceImpl.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\model\dto\ListaReproduccionDTO.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\response\AuthResponse.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\entity\Usuario.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\repository\CancionRepository.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\GlobalExceptionHandler.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\repository\UsuarioRepository.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\repository\ListaReproduccionRepository.java
-C:\WorkSpace\Nueva carpeta\src\main\java\com\miapp\model\dto\CancionDTO.java
+C:\WorkSpace\PruebasConcepto\FUENTES\prueba_quipux\backend\src\main\java\com\miapp\repository\CategoriaRepository.java
+C:\WorkSpace\PruebasConcepto\FUENTES\prueba_quipux\backend\src\main\java\com\miapp\service\ProductoService.java
+C:\WorkSpace\PruebasConcepto\FUENTES\prueba_quipux\backend\src\main\java\com\miapp\entity\Producto.java
+C:\WorkSpace\PruebasConcepto\FUENTES\prueba_quipux\backend\src\main\java\com\miapp\MiProyectoApplication.java
+C:\WorkSpace\PruebasConcepto\FUENTES\prueba_quipux\backend\src\main\java\com\miapp\controller\ProductoController.java
+C:\WorkSpace\PruebasConcepto\FUENTES\prueba_quipux\backend\src\main\java\com\miapp\entity\Categoria.java
+C:\WorkSpace\PruebasConcepto\FUENTES\prueba_quipux\backend\src\main\java\com\miapp\dto\ProductoRequest.java
+C:\WorkSpace\PruebasConcepto\FUENTES\prueba_quipux\backend\src\main\java\com\miapp\repository\ProductoRepository.java
