@@ -23,8 +23,5 @@ public class Producto {
 
     private Integer categoria;
 
-    public Integer getIdProducto() {
-        return idProducto;
-    }
 }
 
